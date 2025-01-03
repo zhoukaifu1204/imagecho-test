@@ -1,0 +1,234 @@
+.imageStyle {
+  position: relative;
+}
+.oneText {
+  position: absolute;
+  top: 80px;
+  left: 166px;
+  z-index: 1;
+}
+.title {
+  font-weight: 700px;
+  font-size: 64px;
+  color: #fff;
+}
+.twoText {
+  position: absolute;
+  top: 220px;
+  left: 166px;
+  z-index: 1;
+}
+.thrText {
+  position: absolute;
+  top: 280px;
+  left: 166px;
+  z-index: 1;
+}
+.info {
+  font-weight: 700px;
+  font-size: 20px;
+  color: #fff;
+}
+.image {
+  position: absolute;
+  top: -273px;
+  right: 87px;
+  width: 589px;
+  height: 589px;
+  /* background-color: red; */
+}
+.video {
+    position: absolute;
+  margin-top: -483px;
+  margin-left: 81px;
+  height: 395px;
+  width: 395px;
+}
+.scrollOne {
+  height: 60px;
+  margin-top: 12rem;
+  width: 100%;
+  margin-inline: auto;
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -100px;
+  }
+}
+.item1 {
+  width: 400px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(30s / 3 * (3 - 1) * -1);
+}
+
+.item2 {
+  width: 400px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(30s / 3 * (3 - 2) * -1);
+}
+.item3 {
+  width: 400px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(30s / 3 * (3 - 3) * -1);
+}
+.scrollTwo {
+  height: 60px;
+  margin-top: 1rem;
+  width: 100%;
+  margin-inline: auto;
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+.item4 {
+  width: 400px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(40s / 3 * (3 - 1) * -1);
+}
+.item5 {
+  width: 400px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(40s / 3 * (3 - 2) * -1);
+}
+.item6 {
+  width: 650px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(40s / 3 * (3 - 3) * -1);
+}
+.scrollThree {
+  height: 60px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  margin-inline: auto;
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+.item7 {
+  width: 400px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(30s / 3 * (3 - 1) * -1);
+}
+.item8 {
+  width: 400px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(30s / 3 * (3 - 2) * -1);
+}
+.item9 {
+  width: 600px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  left: max(calc(200px * 3), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(30s / 3 * (3 - 3) * -1);
+}

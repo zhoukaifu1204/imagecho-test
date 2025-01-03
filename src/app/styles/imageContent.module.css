@@ -1,0 +1,112 @@
+.ribbon{
+    opacity: 0.2;
+    margin-top: 36px;
+}
+.imageStyle {
+  margin-top: 245px;
+  margin-left: 76px;
+  margin-right: 76px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.infoStyle {
+  .textStyle {
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+.cultureStyle {
+    font-size: 64px;
+  }
+
+
+.thrImage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.oneImage {
+  padding-right: 80px;
+  cursor: pointer;
+
+
+}
+.oneImg {
+    width: 418px;
+    height: 593px;
+    border: 5px solid #ffd75f;
+  }
+.twoImage {
+  padding-top: 163px;
+  padding-right: 80px;
+  cursor: pointer;
+
+}
+.twoImg {
+    width: 376px;
+    height: 533px;
+  }
+.threeImage {
+  padding-top: 163px;
+  cursor: pointer;
+  padding-right: 80px;
+
+}
+.threeImg {
+    width: 376px;
+    height: 533px;
+  }
+.fourImage {
+    padding-top: 163px;
+    cursor: pointer;
+
+  }
+  .fourImg {
+    width: 376px;
+    height: 533px;
+  }
+.footer{
+
+    margin-left: 103px;
+    margin-right: 53px;
+    margin-bottom: 36px;
+    margin-top: 50px;
+
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+}
+.conFont{
+    font-weight: 700;
+}
+.footerInfo{
+padding-top: 20px;
+}
+.infoThree{
+    font-weight: 500;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright{
+    padding-top: 20px;
+}
+.threeIcon{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
